@@ -17,13 +17,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3jW-vf-Xyz">
-                                <rect key="frame" x="270" y="285" width="61" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3jW-vf-Xyz">
+                                <rect key="frame" x="275" y="285.5" width="49" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.9713250228146284" blue="0.63631409063501176" alpha="1" colorSpace="calibratedRGB"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                 <state key="normal" title="Record"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3jW-vf-Xyz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mUl-91-JbH"/>
+                            <constraint firstItem="3jW-vf-Xyz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xdA-Jg-eQq"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
